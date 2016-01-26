@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-
+  post 'texts/send_text', as: 'send_text'
+ 
   root 'todos#index'
   resources :todos, except: [ :show, :new ]
 

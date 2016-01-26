@@ -1,6 +1,7 @@
 <div class="todo">
   <span><%= todo.task %></span> — 
   <span><%= todo.completion_date.to_s %></span>
+  <span> <%= button_to "text", send_text_path(id: todo)  %> </span>
   <span> <%= link_to "edit", edit_todo_path(todo)  %> </span>
   <span> <%= link_to "delete", todo, method: :delete  %> </span>
 </div>

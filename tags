@@ -10,6 +10,9 @@ ApplicationController	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/con
 ApplicationHelper	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 CreateTodos	/Users/kitlangton/Viking/Unit8/project_todo_twilio/db/migrate/20160126184534_create_todos.rb	/^class CreateTodos < ActiveRecord::Migration$/;"	c
 ProjectTodoTwilio	/Users/kitlangton/Viking/Unit8/project_todo_twilio/config/application.rb	/^module ProjectTodoTwilio$/;"	m
+TextsController	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/texts_controller.rb	/^class TextsController < ApplicationController$/;"	c
+TextsControllerTest	/Users/kitlangton/Viking/Unit8/project_todo_twilio/test/controllers/texts_controller_test.rb	/^class TextsControllerTest < ActionController::TestCase$/;"	c
+TextsHelper	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/helpers/texts_helper.rb	/^module TextsHelper$/;"	m
 Todo	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/models/todo.rb	/^class Todo < ActiveRecord::Base$/;"	c
 TodoTest	/Users/kitlangton/Viking/Unit8/project_todo_twilio/test/models/todo_test.rb	/^class TodoTest < ActiveSupport::TestCase$/;"	c
 TodosController	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^class TodosController < ApplicationController$/;"	c
@@ -20,6 +23,7 @@ create	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_
 destroy	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def destroy$/;"	f	class:TodosController
 edit	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def edit$/;"	f	class:TodosController
 index	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def index$/;"	f	class:TodosController
+send_text	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/texts_controller.rb	/^  def send_text$/;"	f	class:TextsController
 set_todo	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def set_todo$/;"	f	class:TodosController
 todo_params	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def todo_params$/;"	f	class:TodosController
 update	/Users/kitlangton/Viking/Unit8/project_todo_twilio/app/controllers/todos_controller.rb	/^  def update$/;"	f	class:TodosController
